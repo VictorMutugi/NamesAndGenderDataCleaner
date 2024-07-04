@@ -17,7 +17,7 @@ public class FileConverter {
         if (filePath.toLowerCase().endsWith(".csv")) {
             return true;
         } else if (filePath.toLowerCase().endsWith(".xls") || filePath.toLowerCase().endsWith(".xlsx")) {
-            return convertExcelToCSV(filePath);
+            return false;
         }
         return false;
     }
